@@ -6,35 +6,55 @@
   <title>Erica Kufa | Public Health Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-50 text-gray-800 font-sans">
+<body class="bg-gray-100 font-sans">
 
-  <!-- Header -->
-  <header class="bg-blue-900 text-white py-8 text-center">
-    <h1 class="text-4xl font-bold">Erica Kufa</h1>
-    <p class="text-lg mt-2">Public Health Professional | M&E Strategist | Data & Epidemiology Specialist</p>
+  <!-- Navigation -->
+  <nav class="bg-white shadow-sm fixed w-full z-10">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="flex justify-between">
+        <div class="flex space-x-4">
+          <div class="py-5 text-lg font-semibold text-blue-900">Erica Kufa</div>
+          <ul class="hidden md:flex items-center space-x-4 ml-10">
+            <li><a href="#about" class="py-5 text-gray-800 hover:text-blue-700 border-b-2 border-blue-900">Home</a></li>
+            <li><a href="#education" class="py-5 text-gray-800 hover:text-blue-700">Education</a></li>
+            <li><a href="#experience" class="py-5 text-gray-800 hover:text-blue-700">Experience</a></li>
+            <li><a href="#publications" class="py-5 text-gray-800 hover:text-blue-700">Publications</a></li>
+            <li><a href="#interests" class="py-5 text-gray-800 hover:text-blue-700">Interests</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="flex flex-col-reverse md:flex-row items-center justify-between max-w-6xl mx-auto pt-28 pb-20 px-6">
+    <div class="md:w-1/2">
+      <p class="text-sm uppercase tracking-wide text-gray-500">Public Health Specialist</p>
+      <h1 class="text-4xl font-bold text-blue-900 mt-2">Erica Kufa</h1>
+      <p class="mt-4 text-lg text-gray-700">
+        I am a public health expert with over 21 years of experience across Africa, focusing on monitoring and evaluation,
+        strategic information, and public health systems strengthening. My work has contributed to HIV, TB, Malaria, and
+        immunization programs globally.
+      </p>
+    </div>
+    <div class="md:w-1/2 mb-10 md:mb-0">
+      <img src="/mnt/data/photo.jpg" alt="Portrait of Erica Kufa" class="w-72 h-72 object-cover mx-auto rounded-full shadow-xl transform transition duration-300 hover:scale-105 hover:shadow-2xl"/>
+    </div>
   </header>
 
   <!-- About Me -->
-  <section class="py-10 px-6 max-w-5xl mx-auto">
+  <section id="about" class="py-12 bg-white px-6 max-w-5xl mx-auto">
     <h2 class="text-2xl font-semibold text-blue-900 mb-4">About Me</h2>
-    <p class="text-lg">
-      I am a public health expert with 21+ years of international experience in monitoring & evaluation,
-      strategic information systems, and data management across Sub-Saharan Africa. My work has focused
-      on HIV/AIDS, TB, Malaria, Immunization, and Emergency Response programs. Currently, I serve as
-      Associate Specialist at The Global Fund, where I lead global reporting on key performance indicators,
-      impact data systems, and programmatic results.
-    </p>
-    <p class="mt-4 text-lg">
-      My core strengths include data analysis, program evaluation, stakeholder engagement, and strengthening
-      health systems through evidence-informed strategies. I’ve collaborated with WHO, UNAIDS, DFID,
-      and national governments to build resilient public health infrastructures.
+    <p class="text-lg text-gray-800">
+      My current work at The Global Fund involves leading KPI reporting, managing programmatic results, and collaborating
+      with global partners to enhance data systems. I specialize in aligning grant performance with strategic health targets.
     </p>
   </section>
 
   <!-- Education -->
-  <section class="py-10 px-6 bg-white max-w-5xl mx-auto">
+  <section id="education" class="py-12 px-6 max-w-5xl mx-auto">
     <h2 class="text-2xl font-semibold text-blue-900 mb-4">Education</h2>
-    <ul class="list-disc pl-6 text-lg space-y-2">
+    <ul class="list-disc pl-6 text-lg text-gray-800 space-y-2">
       <li>Postgraduate Diploma in Geographic Information Sciences, University of Leeds (2019)</li>
       <li>MPH, University of the Western Cape, South Africa (2012)</li>
       <li>International Course in Applied Epidemiology, Emory University, USA (2003)</li>
@@ -44,48 +64,44 @@
   </section>
 
   <!-- Experience -->
-  <section class="py-10 px-6 max-w-5xl mx-auto">
+  <section id="experience" class="py-12 bg-white px-6 max-w-5xl mx-auto">
     <h2 class="text-2xl font-semibold text-blue-900 mb-4">Experience</h2>
-    <div class="space-y-4 text-lg">
+    <div class="space-y-4 text-lg text-gray-800">
       <div>
-        <strong>The Global Fund</strong> – Associate Specialist, Monitoring & Evaluation (2012–Present)<br/>
-        Leading KPI reporting, database management, results quality assurance, and program reviews globally.
+        <strong>The Global Fund</strong> – Associate Specialist (2012–Present): Led KPI reporting, data quality assurance, and strategic portfolio reviews.
       </div>
       <div>
-        <strong>WHO Regional Office for Africa</strong> – Technical Officer, HIV/TB (2001–2011)<br/>
-        Developed HIV surveillance systems, led data analysis, and managed regional M&E frameworks.
+        <strong>WHO AFRO</strong> – Technical Officer, HIV/TB (2001–2011): Developed surveillance systems and M&E frameworks across 46 countries.
       </div>
       <div>
-        <strong>WHO Southern Africa Inter-Country Programme</strong> – EPI Data Manager (1999–2001)<br/>
-        Oversaw immunization surveillance data and developed systems to support regional vaccine programs.
+        <strong>WHO Southern Africa</strong> – EPI Data Manager (1999–2001): Led immunization data systems and disease surveillance.
       </div>
       <div>
-        <strong>Consultancies with WHO (2011–2012)</strong><br/>
-        Strengthened data systems in Somalia, Botswana, and Horn of Africa for malaria and emergency programs.
+        <strong>WHO Consultancies</strong> – (2011–2012): Strengthened surveillance in Somalia, Botswana, and Horn of Africa.
       </div>
     </div>
   </section>
 
   <!-- Publications -->
-  <section class="py-10 px-6 bg-white max-w-5xl mx-auto">
+  <section id="publications" class="py-12 px-6 max-w-5xl mx-auto">
     <h2 class="text-2xl font-semibold text-blue-900 mb-4">Publications</h2>
-    <ul class="list-disc pl-6 text-lg space-y-3">
-      <li>
-        Kufa, E. (2012). *The timing of first antenatal care visit and factors associated with access to care*.
-        Master’s Thesis, University of the Western Cape.
-      </li>
-      <li>
-        Ghys, P. D., Kufa, E., George, M. V. (2006). *Measuring HIV trends in generalized epidemics*. 
-        Sexually Transmitted Infections, 82 Suppl 1, i52–i56.
-      </li>
-      <li>
-        Munyoro, M. N., Kufa, E., et al. (2003). *Impact of Measles Campaign, Zimbabwe*. 
-        Journal of Infectious Diseases, 187, S91–S96.
-      </li>
-      <li>
-        Biellik, R., Kufa, E., et al. (2002). *First 5 Years of Measles Elimination in Southern Africa*. 
-        The Lancet, 359(9317): 1564–1568.
-      </li>
+    <ul class="list-disc pl-6 text-lg text-gray-800 space-y-3">
+      <li>Kufa, E. (2012). <em>The timing of first antenatal care visit...</em> University of the Western Cape.</li>
+      <li>Ghys, P. D., Kufa, E., et al. (2006). <em>Measuring HIV trends...</em> STI Journal, 82 Suppl 1.</li>
+      <li>Munyoro, M. N., Kufa, E., et al. (2003). <em>Impact of Measles Campaign...</em> JID, 187, S91–S96.</li>
+      <li>Biellik, R., Kufa, E., et al. (2002). <em>Measles Elimination in Southern Africa...</em> The Lancet.</li>
+    </ul>
+  </section>
+
+  <!-- Interests -->
+  <section id="interests" class="py-12 bg-white px-6 max-w-5xl mx-auto">
+    <h2 class="text-2xl font-semibold text-blue-900 mb-4">Interests</h2>
+    <ul class="list-disc pl-6 text-lg text-gray-800 space-y-2">
+      <li>Singing</li>
+      <li>Hiking</li>
+      <li>Sewing</li>
+      <li>Reading</li>
+      <li>Cooking</li>
     </ul>
   </section>
 
