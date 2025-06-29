@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Erica Kufa | Public Health Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-blue-900 text-white py-8 text-center">
+    <h1 class="text-4xl font-bold">Erica Kufa</h1>
+    <p class="text-lg mt-2">Public Health Professional | M&E Strategist | Data & Epidemiology Specialist</p>
+  </header>
+
+  <!-- About Me -->
+  <section class="py-10 px-6 max-w-5xl mx-auto">
+    <h2 class="text-2xl font-semibold text-blue-900 mb-4">About Me</h2>
+    <p class="text-lg">
+      I am a public health expert with 21+ years of international experience in monitoring & evaluation,
+      strategic information systems, and data management across Sub-Saharan Africa. My work has focused
+      on HIV/AIDS, TB, Malaria, Immunization, and Emergency Response programs. Currently, I serve as
+      Associate Specialist at The Global Fund, where I lead global reporting on key performance indicators,
+      impact data systems, and programmatic results.
+    </p>
+    <p class="mt-4 text-lg">
+      My core strengths include data analysis, program evaluation, stakeholder engagement, and strengthening
+      health systems through evidence-informed strategies. I’ve collaborated with WHO, UNAIDS, DFID,
+      and national governments to build resilient public health infrastructures.
+    </p>
+  </section>
+
+  <!-- Education -->
+  <section class="py-10 px-6 bg-white max-w-5xl mx-auto">
+    <h2 class="text-2xl font-semibold text-blue-900 mb-4">Education</h2>
+    <ul class="list-disc pl-6 text-lg space-y-2">
+      <li>Postgraduate Diploma in Geographic Information Sciences, University of Leeds (2019)</li>
+      <li>MPH, University of the Western Cape, South Africa (2012)</li>
+      <li>International Course in Applied Epidemiology, Emory University, USA (2003)</li>
+      <li>Diploma in Marketing Management, IMM, South Africa (2002)</li>
+      <li>BSc in Mathematics & Computer Science, University of Zimbabwe (1996)</li>
+    </ul>
+  </section>
+
+  <!-- Experience -->
+  <section class="py-10 px-6 max-w-5xl mx-auto">
+    <h2 class="text-2xl font-semibold text-blue-900 mb-4">Experience</h2>
+    <div class="space-y-4 text-lg">
+      <div>
+        <strong>The Global Fund</strong> – Associate Specialist, Monitoring & Evaluation (2012–Present)<br/>
+        Leading KPI reporting, database management, results quality assurance, and program reviews globally.
+      </div>
+      <div>
+        <strong>WHO Regional Office for Africa</strong> – Technical Officer, HIV/TB (2001–2011)<br/>
+        Developed HIV surveillance systems, led data analysis, and managed regional M&E frameworks.
+      </div>
+      <div>
+        <strong>WHO Southern Africa Inter-Country Programme</strong> – EPI Data Manager (1999–2001)<br/>
+        Oversaw immunization surveillance data and developed systems to support regional vaccine programs.
+      </div>
+      <div>
+        <strong>Consultancies with WHO (2011–2012)</strong><br/>
+        Strengthened data systems in Somalia, Botswana, and Horn of Africa for malaria and emergency programs.
+      </div>
+    </div>
+  </section>
+
+  <!-- Publications -->
+  <section class="py-10 px-6 bg-white max-w-5xl mx-auto">
+    <h2 class="text-2xl font-semibold text-blue-900 mb-4">Publications</h2>
+    <ul class="list-disc pl-6 text-lg space-y-3">
+      <li>
+        Kufa, E. (2012). *The timing of first antenatal care visit and factors associated with access to care*.
+        Master’s Thesis, University of the Western Cape.
+      </li>
+      <li>
+        Ghys, P. D., Kufa, E., George, M. V. (2006). *Measuring HIV trends in generalized epidemics*. 
+        Sexually Transmitted Infections, 82 Suppl 1, i52–i56.
+      </li>
+      <li>
+        Munyoro, M. N., Kufa, E., et al. (2003). *Impact of Measles Campaign, Zimbabwe*. 
+        Journal of Infectious Diseases, 187, S91–S96.
+      </li>
+      <li>
+        Biellik, R., Kufa, E., et al. (2002). *First 5 Years of Measles Elimination in Southern Africa*. 
+        The Lancet, 359(9317): 1564–1568.
+      </li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white text-center py-6">
+    <p>Contact: ericakufa@hotmail.com | +41 78 837 72 26 | Founex, Switzerland</p>
+    <p class="mt-2 text-sm">&copy; 2025 Erica Kufa. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
